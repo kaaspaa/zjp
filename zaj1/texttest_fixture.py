@@ -3,6 +3,8 @@ from __future__ import print_function
 
 from gilded_rose import *
 
+#from zaj1.gilded_rose import *
+
 if __name__ == "__main__":
     print ("OMGHAI!")
     items = [
