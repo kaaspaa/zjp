@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57c4291b-2065-4684-a159-fb6409d342ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/zjp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/zjp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaj1/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaj1/gilded_rose.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/gilded_rose.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zaj1/texttest_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/zaj1/texttest_fixture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/zjp.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
