@@ -11,5 +11,11 @@ class GildedRoseTest(unittest.TestCase):
         gilded_rose.update_quality()
         self.assertEquals("foo", gilded_rose.items[0].name)
 
-        if __name__ == '__main__':
-            unittest.main()
+    def test_sulfuras(self):
+        items = [Item("Sulfuras, Hand of Ragnaros", sell_in=-1, quality=80)]
+        gilded_rose = GildedRose(items)
+        for day in range(150):
+            gilded_rose.update_quality()
+        self.assertEqual(-1, gilded_rose.items[0].sell_in)
+        self.assertEqual(80, gilded_rose.items[0].quality)
+

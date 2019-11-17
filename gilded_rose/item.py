@@ -8,18 +8,18 @@ class Item:
         self.quality = quality
 
     def update_item(self):
-        if not self.name.find("Sulfuras"):  # zmieniono ifa z Sulfurasem na sam poczatek
+        if "Sulfuras" not in self.name:
             if self.name == "Aged Brie":
                 increase_quality(self)
                 if self.sell_in <= 0:
                     increase_quality(self)
                 decrease_sell_in(self)
-            elif self.name.find("Backstage passes"):
+            elif "Backstage passes" in self.name:
                 if self.sell_in <= 0:
                     self.quality = 0
                 else:
                     increase_quality_in_concert_passes(self)
-                decrease_sell_in(self)  # zmniejszenie sell_in
+                decrease_sell_in(self)
             else:
                 if self.sell_in <= 0:
                     decrease_quality(self)
