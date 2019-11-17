@@ -8,13 +8,13 @@ class Item:
         self.quality = quality
 
     def update_item(self):
-        if not self.name.contains("Sulfuras"):  # zmieniono ifa z Sulfurasem na sam poczatek
+        if not self.name.find("Sulfuras"):  # zmieniono ifa z Sulfurasem na sam poczatek
             if self.name == "Aged Brie":
                 increase_quality(self)
                 if self.sell_in <= 0:
                     increase_quality(self)
                 decrease_sell_in(self)
-            elif self.name.contains("Backstage passes"):
+            elif self.name.find("Backstage passes"):
                 if self.sell_in <= 0:
                     self.quality = 0
                 else:
