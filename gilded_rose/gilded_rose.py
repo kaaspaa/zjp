@@ -1,6 +1,6 @@
 """This file is my try on refactoring "Gilded Rose Kata" """
 # -*- coding: utf-8 -*-
-from functions import *
+from gilded_rose.functions import *
 
 
 class GildedRose(object):
